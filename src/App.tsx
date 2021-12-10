@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-interface User  {
+interface User {
   id: number;
   name: string;
 }
@@ -25,15 +25,13 @@ const users: Array<User> = [
   },
 ];
 
-
 const Modal = () => {
   return (
     <div>
       <div>Modal</div>
     </div>
   );
-}
-
+};
 
 function App() {
   const [showUsers, setShowUsers] = React.useState(false);
@@ -47,7 +45,6 @@ function App() {
       setTextAreaValue(text);
 
       const lastCharacter = text.slice(-1);
-      
 
       if (lastCharacter === "@") {
         setShowUsers(true);
@@ -56,30 +53,30 @@ function App() {
       }
     };
 
+  const createUser = (user: string) => {
+    return <span>{user}</span>;
+  };
 
   const handleUserClick = (userId: number) => {
     const user = users.find((user) => user.id === userId);
 
-
-
     if (user) {
       setUsersSelect([...usersSelect, user]);
-      setTextAreaValue((prevValue) => `${prevValue}${user.name} `)
+      setTextAreaValue((prevValue) => `${prevValue}${user.name} `);
     }
-    setShowUsers(false)
+    setShowUsers(false);
   };
 
   return (
     <div className="App">
-      {usersSelect.map((user) => {
-        return (
-          <>
-            <input type='checkbox' key={user.id} />
-            <span>{user.name}</span>
-          </>
-        )
-      })}
-      <textarea onChange={handleTextChange} value={textAreaValue}></textarea>
+      <div className="mainContainer">
+        <textarea
+          className="textArea"
+          onChange={handleTextChange}
+          value={textAreaValue}
+        ></textarea>
+        <span className="divCopy">{textAreaValue}</span>
+      </div>
       <div>
         <ul>
           {showUsers &&

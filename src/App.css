@@ -11,3 +11,24 @@
   background-color: red;
   color: blue;
 }
+
+.mainContainer {
+    position: relative
+}
+
+.textArea {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: transparent;
+}
+
+.divCopy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
