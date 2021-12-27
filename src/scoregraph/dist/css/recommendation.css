@@ -1,0 +1,16 @@
+.base {
+  color: #858585;
+  position: absolute;
+  left: 40px;
+  top: -44px;
+}
+
+.description {
+  margin-bottom: 0;
+}
+
+.level {
+  color: #FFFFFF;
+  text-transform: capitalize;
+  margin-top: 5px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ScoreGraph from './scoregraph/src/components/scoregraph';
 
 interface User {
   id: number;
@@ -69,26 +70,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className="mainContainer">
-        <textarea
-          className="textArea"
-          onChange={handleTextChange}
-          value={textAreaValue}
-        ></textarea>
-        <span className="divCopy">{textAreaValue}</span>
-      </div>
-      <div>
-        <ul>
-          {showUsers &&
-            users.map((user) => {
-              return (
-                <li key={user.id} onClick={() => handleUserClick(user.id)}>
-                  {user.name}
-                </li>
-              );
-            })}
-        </ul>
-      </div>
+      <ScoreGraph
+              score={300}
+              background='#222222'
+
+            />
     </div>
   );
 }

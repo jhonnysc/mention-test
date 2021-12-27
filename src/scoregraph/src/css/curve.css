@@ -1,0 +1,11 @@
+.base {
+  height: 190px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.line {
+  fill: none;
+}

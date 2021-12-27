@@ -1,0 +1,8 @@
+.base {
+  position: relative;
+  height: 190px;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  padding-left: 6px;
+  max-width: 550px;
+}

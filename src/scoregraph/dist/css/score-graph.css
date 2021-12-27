@@ -1,0 +1,21 @@
+.base {
+  font-size: 12px;
+  padding: 20px 40px 60px 20px;
+  font-weight: 500;
+  width: 680px;
+}
+
+.main {
+  height: 190px !important; /* TODO why is this !important here?*/
+  display: flex; 
+  /* Weird flex but okay */
+}
+
+.header {
+  text-transform: uppercase;
+  color: #808080;
+  line-height: 18px;
+  margin-left: 90px;
+  font-size: 12px;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.SMALL_GRAPH = exports.MED_GRAPH = exports.LARGE_GRAPH = exports.GRAPH_HEIGHT_SMALL = exports.GRAPH_HEIGHT_MED = exports.GRAPH_HEIGHT_LARGE = exports.GRAPH_WIDTH_LARGE = exports.GRAPH_WIDTH_MED = exports.GRAPH_WIDTH_SMALL = void 0;
+var GRAPH_WIDTH_SMALL = 230;
+exports.GRAPH_WIDTH_SMALL = GRAPH_WIDTH_SMALL;
+var GRAPH_WIDTH_MED = 400;
+exports.GRAPH_WIDTH_MED = GRAPH_WIDTH_MED;
+var GRAPH_WIDTH_LARGE = 530;
+exports.GRAPH_WIDTH_LARGE = GRAPH_WIDTH_LARGE;
+var GRAPH_HEIGHT_LARGE = 190;
+exports.GRAPH_HEIGHT_LARGE = GRAPH_HEIGHT_LARGE;
+var GRAPH_HEIGHT_MED = 120;
+exports.GRAPH_HEIGHT_MED = GRAPH_HEIGHT_MED;
+var GRAPH_HEIGHT_SMALL = 83;
+exports.GRAPH_HEIGHT_SMALL = GRAPH_HEIGHT_SMALL;
+var LARGE_GRAPH = 'large';
+exports.LARGE_GRAPH = LARGE_GRAPH;
+var MED_GRAPH = 'med';
+exports.MED_GRAPH = MED_GRAPH;
+var SMALL_GRAPH = 'small';
+exports.SMALL_GRAPH = SMALL_GRAPH;

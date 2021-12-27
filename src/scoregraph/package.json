@@ -1,0 +1,50 @@
+{
+  "_args": [
+    [
+      "@pluralsight/scoregraph@2.0.2",
+      "/home/jhonnyps/Documents/projects/roleiq/ui"
+    ]
+  ],
+  "_from": "@pluralsight/scoregraph@2.0.2",
+  "_id": "@pluralsight/scoregraph@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-3qwqRdnjU0ZobTypg8nI7O5rCyQ=",
+  "_location": "/@pluralsight/scoregraph",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pluralsight/scoregraph@2.0.2",
+    "name": "@pluralsight/scoregraph",
+    "escapedName": "@pluralsight%2fscoregraph",
+    "scope": "@pluralsight",
+    "rawSpec": "2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "2.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/scoregraph/-/@pluralsight/scoregraph-2.0.2.tgz",
+  "_spec": "2.0.2",
+  "_where": "/home/jhonnyps/Documents/projects/roleiq/ui",
+  "dependencies": {
+    "d3-shape": "^1.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-motion": "^0.5.2"
+  },
+  "description": "Score graph for the pluralsight assesments experience",
+  "main": "main.js",
+  "module": "module.js",
+  "name": "@pluralsight/scoregraph",
+  "peerDependencies": {
+    "react": ">=0.14.0 <17.0.0",
+    "prop-types": ">=15.6.0 <17.0.0",
+    "react-dom": ">=0.14.0 <17.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && babel src --out-dir dist --root-mode upward --copy-files",
+    "prepublish": "yarn build"
+  },
+  "version": "2.0.2"
+}

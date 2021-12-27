@@ -1,0 +1,51 @@
+.base {
+  width: 90px;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.levels {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.level {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  border-right-width: 2px;
+  border-right-style: solid;
+  padding-right: 10px;
+  flex-grow: 1;
+  padding-top: 12px;
+  line-height: 18px;
+  margin: 1px 0;
+  z-index: 1;
+}
+
+.expert {
+  composes: level;
+  color: #26C1FB;
+  margin: 0 0 1px 0;
+}
+
+.proficient {
+  composes: level;
+  color: #86CE21;
+}
+
+.novice {
+  composes: level;
+  color: #FFC200;
+  margin: 1px 0 0 0;
+}
+
+.range {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aaa;
+  margin: 0;
+}
